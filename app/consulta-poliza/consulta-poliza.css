@@ -1,0 +1,339 @@
+.consulta-poliza {
+  background-color: #f5f7fb;
+  padding: 64px 16px 96px;
+}
+
+.consulta-poliza__container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.consulta-poliza__heading {
+  font-size: 32px;
+  font-weight: 600;
+  color: #0c3d8c;
+  margin-bottom: 36px;
+  text-transform: uppercase;
+}
+
+.consulta-poliza__card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 8px 32px rgba(12, 61, 140, 0.15);
+  overflow: hidden;
+  border: 1px solid #d6e0f2;
+}
+
+.consulta-poliza__card-header {
+  background: linear-gradient(90deg, #0c3d8c 0%, #2159b0 100%);
+  color: #fff;
+  padding: 16px 32px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.consulta-poliza__card-body {
+  padding: 32px;
+}
+
+.consulta-poliza__form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.consulta-poliza__field {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.consulta-poliza__label {
+  font-size: 17px;
+  font-weight: 600;
+  color: #d36100;
+}
+
+.consulta-poliza__toggle-group {
+  display: inline-flex;
+  border: 1px solid #cdd6e5;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: #f9fbff;
+}
+
+.consulta-poliza__toggle-option {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 28px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #617099;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.consulta-poliza__toggle-option input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.consulta-poliza__toggle-option--checked {
+  background-color: #0c3d8c;
+  color: #fff;
+}
+
+.consulta-poliza__input,
+.consulta-poliza__date-input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #ccd6ea;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #203155;
+  background-color: #fff;
+  box-shadow: inset 0 1px 2px rgba(32, 49, 85, 0.08);
+}
+
+.consulta-poliza__date-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.consulta-poliza__date-input {
+  padding-right: 44px;
+}
+
+.consulta-poliza__date-button {
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  border-radius: 4px;
+  background-color: #f3f6fc;
+  color: #0c3d8c;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.consulta-poliza__date-button:hover {
+  background-color: #e1e7f5;
+}
+
+.consulta-poliza__date-button:focus-visible {
+  outline: 2px solid rgba(12, 61, 140, 0.6);
+  outline-offset: 2px;
+}
+
+.consulta-poliza__help-btn {
+  align-self: flex-start;
+  padding: 10px 20px;
+  background-color: #143a7a;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.consulta-poliza__help-btn:hover {
+  background-color: #0f2d5f;
+}
+
+.consulta-poliza__error {
+  margin-top: 24px;
+  padding: 16px 20px;
+  border-radius: 6px;
+  border: 1px solid rgba(211, 97, 0, 0.35);
+  background-color: rgba(211, 97, 0, 0.08);
+  color: #a24a00;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.consulta-poliza__submit {
+  align-self: flex-start;
+  padding: 14px 32px;
+  background-color: #0c3d8c;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.consulta-poliza__submit:hover {
+  background-color: #082b64;
+}
+
+.consulta-poliza__resultado {
+  margin-top: 48px;
+}
+
+.consulta-poliza__resultado-card {
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #d6e0f2;
+  box-shadow: 0 8px 24px rgba(12, 61, 140, 0.12);
+  overflow: hidden;
+}
+
+.consulta-poliza__resultado-header {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 18px 36px;
+  background-color: #0c3d8c;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.consulta-poliza__resultado-logo {
+  position: relative;
+  width: 180px;
+  height: 58px;
+  flex-shrink: 0;
+}
+
+.consulta-poliza__resultado-logo img {
+  object-fit: contain;
+  object-position: left center;
+}
+
+.consulta-poliza__resultado-title {
+  color: #f9a33b;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.consulta-poliza__resultado-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px 60px;
+  padding: 36px;
+}
+
+.consulta-poliza__resultado-col {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.consulta-poliza__resultado-block {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.consulta-poliza__resultado-label {
+  font-size: 17px;
+  font-weight: 600;
+  color: #d36100;
+}
+
+.consulta-poliza__resultado-value {
+  font-size: 16px;
+  color: #1f2f51;
+  line-height: 1.6;
+}
+
+.consulta-poliza__resultado-footer {
+  background-color: #f4f7fc;
+  padding: 20px 36px;
+  border-top: 1px solid #dfe6f4;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.consulta-poliza__resultado-reset {
+  padding: 12px 28px;
+  border-radius: 4px;
+  background-color: #0c3d8c;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.consulta-poliza__resultado-reset::before {
+  content: '↻';
+  font-size: 18px;
+  line-height: 1;
+}
+
+.consulta-poliza__resultado-reset:hover {
+  background-color: #082b64;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+  .consulta-poliza {
+    padding: 48px 16px 72px;
+  }
+
+  .consulta-poliza__heading {
+    font-size: 26px;
+    margin-bottom: 28px;
+    text-align: center;
+  }
+
+  .consulta-poliza__card-header {
+    text-align: center;
+  }
+
+  .consulta-poliza__resultado-title {
+    text-align: center;
+  }
+
+  .consulta-poliza__submit {
+    width: 100%;
+    text-align: center;
+  }
+
+  .consulta-poliza__resultado-grid {
+    grid-template-columns: 1fr;
+    padding: 28px 24px;
+    gap: 20px;
+  }
+
+  .consulta-poliza__resultado-footer {
+    justify-content: center;
+  }
+
+  .consulta-poliza__resultado-header {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .consulta-poliza__resultado-logo {
+    width: 160px;
+    height: 54px;
+  }
+
+  .consulta-poliza__resultado-reset {
+    width: 100%;
+    justify-content: center;
+  }
+}
+

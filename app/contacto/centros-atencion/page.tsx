@@ -1,5 +1,3 @@
-import '../../globals.css'
-
 export default function CentrosAtencionPage() {
   return (
     <div className="container" style={{ paddingTop: '48px', paddingBottom: '48px' }}>

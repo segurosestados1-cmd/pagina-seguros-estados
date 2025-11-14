@@ -1,5 +1,3 @@
-import '../globals.css'
-
 export default function DeberesDerechosPage() {
   return (
     <div className="container" style={{ paddingTop: '48px', paddingBottom: '48px' }}>

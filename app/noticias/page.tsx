@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { FiArrowRight } from 'react-icons/fi'
-import '../globals.css'
 import '../home.css'
 
 export default function NoticiasPage() {

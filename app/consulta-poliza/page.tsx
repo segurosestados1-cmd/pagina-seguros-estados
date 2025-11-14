@@ -2,7 +2,6 @@
 
 import Image from 'next/image'
 import { useState, type ChangeEvent, type FormEvent } from 'react'
-import '../globals.css'
 import './consulta-poliza.css'
 
 const POLIZA_DEMO = {

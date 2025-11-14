@@ -1,5 +1,3 @@
-import '../../globals.css'
-
 export default function Ley2300Page() {
   return (
     <div className="container" style={{ paddingTop: '48px', paddingBottom: '48px' }}>

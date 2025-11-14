@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function RadicacionSiniestrosPage() {
   return (
     <div className="container" style={{ paddingTop: '48px', paddingBottom: '48px' }}>
